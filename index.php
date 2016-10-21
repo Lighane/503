@@ -1,6 +1,6 @@
 <?php
 
-    // 
+    //Регистрация на сайте
     session_start();
 
     // routes
