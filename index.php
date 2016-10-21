@@ -3,7 +3,7 @@
     // 
     session_start();
 
-    // routes
+    // проверка
     if (isset($_POST['exit'])) { 
         session_destroy();
         showForm();
