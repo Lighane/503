@@ -1,9 +1,11 @@
 <?php
 
+
     // 
     session_start();
 
     // проверка
+
     if (isset($_POST['exit'])) { 
         session_destroy();
         showForm();
